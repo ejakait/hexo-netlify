@@ -3,6 +3,8 @@ options:
   lineNumbers: true
   askImageFilename: true
   overwriteImages: true
+  imagePrefix: pasted-image
+  imagePath: images/
 editor:
   inputStyle: contenteditable
   spellcheck: false

@@ -17,15 +17,18 @@ admin:
   password_hash: $2a$10$87ZY9GgB8KpjZMuBdj8TIuOsxNk8gEEvVrcRcbVzCfCgDLWXFkBFW
   secret: abyssal
 
+metadata:
+  cover_image: images/
+
+
 menu:
   About: /about
   Contact: /contact
   Instagram: https://www.instagram.com
   LinkedIn: https://www.linkedin.com
   Facebook: https://www.facebook.com
-  
-metadata:
-  cover_image:
+  Admin: /admin/
+
 
 
 # URL
