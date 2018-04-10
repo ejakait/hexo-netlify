@@ -11,6 +11,12 @@ author: John Doe
 language:
 timezone:
 
+# hexo-admin authentification
+admin:
+  username: caleb
+  password_hash: $2a$10$87ZY9GgB8KpjZMuBdj8TIuOsxNk8gEEvVrcRcbVzCfCgDLWXFkBFW
+  secret: abyssal
+
 menu:
   About: /about
   Contact: /contact
@@ -18,6 +24,10 @@ menu:
   LinkedIn: https://www.linkedin.com
   Facebook: https://www.facebook.com
   
+metadata:
+  cover_image:
+
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
