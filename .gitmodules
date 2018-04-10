@@ -1,0 +1,3 @@
+[submodule "edinburgh"]
+	path = theme/edinburgh
+	url = https://github.com/sharvaridesai/hexo-theme-edinburgh.git
