@@ -3,19 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: kicksbyfujo
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Eugene Oloo
 language:
 timezone:
 
 # hexo-admin authentification
-admin:
-  username: caleb
-  password_hash: $2a$10$87ZY9GgB8KpjZMuBdj8TIuOsxNk8gEEvVrcRcbVzCfCgDLWXFkBFW
-  secret: abyssal
+
 
 metadata:
   cover_image: images/
@@ -27,13 +24,12 @@ menu:
   Instagram: https://www.instagram.com
   LinkedIn: https://www.linkedin.com
   Facebook: https://www.facebook.com
-  Admin: /admin/
 
 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://kicksbyfujo.netlify.com/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -70,7 +66,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 6
   order_by: -date
   
 # Category & Tag
@@ -87,7 +83,7 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 10
+per_page: 
 pagination_dir: page
 
 # Extensions
@@ -98,4 +94,7 @@ theme: edinburgh
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+y  repo: git@github.com:ejakait/hexo-netlify.git
+  branch: master
+  message: 
