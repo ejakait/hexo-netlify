@@ -95,6 +95,6 @@ theme: edinburgh
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-y  repo: git@github.com:ejakait/hexo-netlify.git
+  repo: git@github.com:ejakait/hexo-netlify.git
   branch: master
   message: 
