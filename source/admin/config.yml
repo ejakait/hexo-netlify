@@ -1,8 +1,5 @@
 backend:
-  name: github
-  repo: git@github.com:ejakait/hexo-netlify.git
-  branch: master
-  message:
+  name: git-gateway
   
 publish_mode: editorial_workflow
 media_folder: "themes/edinburgh/images  " # Media files will be stored in the repo under static/images/uploads
