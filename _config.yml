@@ -11,12 +11,6 @@ author: Eugene Oloo
 language:
 timezone:
 
-# hexo-admin authentification
-
-
-metadata:
-  cover_image: images/
-
 
 menu:
   About: /about
@@ -96,3 +90,5 @@ deploy:
   repo: git@github.com:ejakait/hexo-netlify.git
   branch: master
   message: 
+
+
