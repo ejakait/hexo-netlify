@@ -3,8 +3,7 @@ backend:
   branch: master
   
 publish_mode: editorial_workflow
-media_folder: "source/images" # Media files will be stored in the repo under static/images/uploads
-public_folder: "themes/edinburgh/source/images" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: "images" # Media files will be stored in the repo under static/images/uploads
 
 collections:
   - name: "post" # Used in routes, e.g., /admin/collections/blog
