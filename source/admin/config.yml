@@ -3,8 +3,8 @@ backend:
   branch: master
   
 publish_mode: editorial_workflow
-media_folder: "images" # Media files will be stored in the repo under static/images/uploads
-public_folder: "./images"
+media_folder: "themes/edinburgh/source/images" # Media files will be stored in the repo under static/images/uploads
+
 collections:
   - name: "post" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
