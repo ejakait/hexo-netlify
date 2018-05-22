@@ -13,7 +13,7 @@ module.exports = (dato, root, i18n) => {
             frontmatter: { 
               title: post.title, 
               date : post.date,
-              coverimage: post.cover_image,
+              cover_image: post.urlImage.url(),
             },
             content: post.body
           }
